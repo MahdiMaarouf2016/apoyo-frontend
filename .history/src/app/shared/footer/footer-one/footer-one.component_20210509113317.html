@@ -1,0 +1,123 @@
+<!--footer section -->
+<footer [class]="class">
+	<div class="light-layout" *ngIf="newsletter">
+		<div class="container">
+			<section class="small-section border-section border-top-0">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="subscribe">
+							<div>
+								<h4>SAVOIR TOUT D'ABORD!</h4>
+								<p>Ne manquez rien d'apoyo en vous inscrivant à notre newsletter. </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<form class="form-inline subscribe-form" action="https://pixelstrap.us19.list-manage.com/subscribe/post?u=5a128856334b598b395f1fc9b&amp;id=082f74cbda" target="_blank" method="post">
+							<div class="form-group mx-sm-3">
+								<input type="email" #name name="EMAIL" id="mce-EMAIL" class="form-control" placeholder="Entrer votre email">
+							</div>
+							<button type="submit" class="btn btn-solid">s'abonner</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<section class="section-b-space light-layout">
+		<div class="container">
+			<div class="row footer-theme partition-f">
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-title footer-mobile-title">
+						<h4>Apropos</h4>
+					</div>
+					<div class="footer-contant">
+						<div class="footer-logo">
+							<img [src]="themeLogo" alt="logo">
+						</div>
+						<p>Une plateforme électronique spécialisée dans la vente en ligne pour tous les besoins des pâtisseries, cafés et restaurants, y compris les matières premières, les emballages, les accessoires, les articles de mariage, soutenance et anniversaires ...”. </p>
+						<div class="footer-social">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                               
+                                
+                                <li>
+                                    <a href="javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+					</div>
+				</div>
+				<div class="col offset-xl-1">
+					<div class="sub-title">
+						<div class="footer-title">
+                            <h4>Categories</h4>
+                        </div>
+                        <div class="footer-contant">
+                            <ul>
+                                <li><a href="javascript:void(0)">Acceuil</a></li>
+                                <li><a href="../../../pages/account/contact/contact.component.html">Contact</a></li>
+                                <li><a href="javascript:void(0)">Qui Sommes-nous</a></li>
+                                <li><a href="javascript:void(0)">Connexion</a></li>
+                            </ul>
+                        </div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="sub-title">
+						<div class="footer-title">
+                            <h4>Produits</h4>
+                        </div>
+                        <div class="footer-contant">
+                            <ul>
+                                <li><a href="javascript:void(0)">Pâtisserie</a></li>
+                                <li><a href="javascript:void(0)">Café</a></li>
+                                <li><a href="javascript:void(0)">Restaurant</a></li>
+                                <li><a href="javascript:void(0)">Accessoires</a></li>
+                                <li><a href="javascript:void(0)">Emballage</a></li>
+								<li><a href="javascript:void(0)">Céremonie</a></li>
+                            </ul>
+                        </div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="sub-title">
+						<div class="footer-title">
+						    <h4>Information</h4>
+						</div>
+						<div class="footer-contant">
+						    <ul class="contact-list">
+						        <li><i class="fa fa-map-marker"></i>Tunisie Sousse-4023 </li>
+						        <li><i class="fa fa-phone"></i>Téléphone: +216.99.180.171</li>
+						        <li><i class="fa fa-envelope-o"></i>Email : <a>apoyogroupe@gmail.com</a></li>
+						        
+						    </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="sub-footer">
+		<div class="container">
+			<div class="row">
+                <div class="col-xl-6 col-md-6 col-sm-12">
+                  <div class="footer-end">
+                    <p><i class="fa fa-copyright" aria-hidden="true"></i> {{ today | date:'y'}} Apoyo.tn Tous droits réservés </p>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-md-6 col-sm-12">
+                  <div class="payment-card-bottom">
+                    <ul>
+                     
+                    </ul>
+                  </div>
+                </div>
+            </div>
+		</div>
+	</div>
+</footer>
+<!--footer section end -->
